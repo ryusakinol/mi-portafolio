@@ -37,9 +37,9 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
-      <div class="container-fluid">
+      <div class="container-fluid" >
         <!-- Navbar brand -->
-        <a class="navbar-brand nav-link"  href="#home">
+        <a class="navbar-brand nav-link move-scroll"  href="/"  id="home">
           <strong>Knowledge</strong>
         </a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -49,17 +49,19 @@
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll  overflow-y: auto">
             <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              <a class="nav-link" aria-current="page" href="/#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutme" rel="nofollow"
-                target="_blank">About</a>
+              <a class="nav-link move-scroll" href="/#about" rel="nofollow">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link move-scroll" href="#skill" target="_blank">Skill</a>
+              <a class="nav-link move-scroll" href="/#skill" ">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Contact</a>
+              <a class="nav-link move-scroll" href="/#project" >Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link move-scroll" href="/#contact" >Contact</a>
             </li>
           </ul>
 
@@ -94,8 +96,8 @@
           <div class="text-white">
             <h1 class="mb-3">Alejandro Santos Estrella</h1>
             <h5 class="mb-4">Front-end Developer</h5>
-            <a class="btn btn-primary btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
-              rel="nofollow" target="_blank">Start tutorial</a>
+            <a class="btn btn-primary btn-lg m-2" href="https://github.com/ryusakinol?tab=repositories" role="button"
+              rel="nofollow" target="_blank">My Repository</a>
             <a class="btn btn-outline-light btn-lg m-2" href="cv alejandro santos.pdf" target="_blank"
               role="button">Download MY CV</a>
           </div>
@@ -114,22 +116,22 @@
         <div class="row">
           <div class="col-md-6 gx-5 mb-4">
             <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-              <img src="front-end-dev.jpg" class="img-fluid" />
+              <img src="/img/front-end-dev.jpg" class="img-fluid" />
               <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
             </div>
           </div>
 
-          <div class="col-md-6 gx-5 mb-4" id="aboutme">
+          <div class="col-md-6 gx-5 mb-4" id="about">
             <h4><strong>Sobre mi</strong></h4>
             <p class="text-muted">
-             Amante del codigo, inspirado en la logica busco un espacio donde pueda utilizar mis habilidades y conocimentos, Soy un Junior con una capacidad de adatarme a la situacion, Aceptar nuevo retos
-             Me gusta el minimalismo, apresio el diseño, tengo una Gran imaginacion y lo enfoco en el Front-end y seguir formandome como desarrollador y poder llegar a Ser un Completo Fullstack Developer.
+             Amante del codigo, inspirado en la logica en lo nuevo y la tecnologias, busco un espacio donde pueda utilizar mis habilidades y conocimentos, Soy un Junior con una capacidad de adatarme a la situacion, Aceptar nuevo retos me gusta el minimalismo, aprecio el diseño, Tengo una gran imaginacion y lo enfoco en el Front-end. quiero seguir formandome como desarrollador y poder llegar a ser un Completo Fullstack Developer.
             </p>
             <p><strong>Habilidades </strong></p>
             <p class="text-muted">
-              me adapto rapido, me se 
+              Me adapto rapido, Competitivo entusiasta, Optimista muy social y dinamico me gusta conocer
+              persona y me gusta dar lo mejor de mi.  
             </p>
           </div>
         </div>
@@ -139,25 +141,24 @@
       <hr class="my-5" />
 
       <!--Section: Content-->
-      <section class="text-center">
-        <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
+      <section class="text-center" id="project">
+        <h4 class="mb-5"><strong>Projectos</strong></h4>
 
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="front-end-dev.jpg" class="img-fluid" />
-                <a href="#!">
+                <img src="img/glassmorphisn.png" class="img-fluid" />
+                <a href="https://ryusakinol.github.io/profile-web-glass-morph-desing/">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Glass morphisn</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  un efecto nuevo en la web haciendo alucion al vidrio clasico y trasparente bien fresco.
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="https://github.com/ryusakinol/profile-web-glass-morph-desing" class="btn btn-primary">Repository</a>
               </div>
             </div>
           </div>
@@ -165,18 +166,17 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                <a href="#!">
+                <img src="/img/myprofile.png" class="img-fluid" />
+                <a href="https://ryusakinol.github.io/Tarjeta-de-presentacion/">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">presentacion </h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  un sitio web creado con html5 y css3 utlizando los nuevas versiones de sus tecnologias. 
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="https://github.com/ryusakinol/Tarjeta-de-presentacion" class="btn btn-primary">Repository</a>
               </div>
             </div>
           </div>
@@ -190,12 +190,70 @@
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Chat con web socket</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  hice un chat en el cual puedes chatear en tiempo real juntado las tecnologias de nodejs.
+                  express, nodemon , bootstrap5 y web socket IO. 
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="https://github.com/ryusakinol/chat-con-express" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/img/galery.png" class="img-fluid" />
+                <a href="https://ryusakinol.github.io/my-first-gallery/">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Gallery gif</h5>
+                <p class="card-text">
+
+                  una galeria echa con grid y bootstrap 5 para dar un estilo moderno y el uso de modals para
+                  hacer vista previas de la imagen selecionada en grande.
+                </p>
+                <a href="https://github.com/ryusakinol/my-first-gallery" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/img/previospage.png" class="img-fluid"  />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">The Legend of Zelda Blog Page</h5>
+                <p class="card-text">
+                  Una pagina Echa con nodejs, express sin hosting tendras que descargar los archivos instalar
+                  el archivo package para poder verla es una imagen de preview ademas utilice morgan y nodemon
+                </p>
+                <a href="https://github.com/ryusakinol/zelda-web-page/tree/master/first-node-express-app-master" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/img/profilebs5.png" class="img-fluid" />
+                <a href="https://ryusakinol.github.io/proofile-grid-with-bootstrap/">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">plantilla</h5>
+                <p class="card-text">
+                  una grilla de tabla responsive de 5 perfiles echa con grid en bootstrap 5 para dar un estilo moderno y adactable a diferentes. 
+                </p>
+                <a href="https://github.com/ryusakinol/proofile-grid-with-bootstrap" class="btn btn-primary">Repository</a>
               </div>
             </div>
           </div>
@@ -266,8 +324,8 @@
   <hr class="my-5" />
   <!--Footer-->
   <footer class="bg-light text-lg-start">
-
-    <div class="text-center py-4 align-items-center">
+      <h2 class="text-center">Contact</h2>
+    <div id="contact" class="text-center py-4 align-items-center">
       <p>Para Contactarme en Mis Social Medias</p>
     
       <a href="https://www.facebook.com/alejandro.estrella.520" class="btn btn-primary m-1" role="button" rel="nofollow"
@@ -278,6 +336,9 @@
       <a href="https://github.com/ryusakinol/" class="btn btn-primary m-1" role="button" rel="nofollow"
         target="_blank">
         <i class="fab fa-github"></i>
+      </a>
+      <a href="#home" class="move-scroll btn btn-primary m-1" role="button" rel="nofollow" >
+        <i class="fas fa-home"></i>
       </a>
     </div>
 
