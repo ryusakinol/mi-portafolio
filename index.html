@@ -10,9 +10,9 @@
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <!-- MDB -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-
+    <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
       <!--Main Navigation-->
@@ -37,9 +37,9 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
-      <div class="container-fluid" >
+      <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand nav-link move-scroll"  href="/"  id="home">
+        <a class="navbar-brand nav-link" href="/" id="home">
           <strong>Knowledge</strong>
         </a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -47,7 +47,7 @@
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll  overflow-y: auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
@@ -67,30 +67,34 @@
 
           <ul class="navbar-nav d-flex flex-row">
             <!-- Icons -->
-            
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.facebook.com/alejandro.estrella.520" rel="nofollow" target="_blank">
-                <i class="fab fa-facebook-f"></i>
+              <a class="nav-link" href="https://www.youtube.com/channel/UCdzOQw7RR8RQqcDcse8j_vw" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
               </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://github.com/ryusakinol/" rel="nofollow" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox" rel="nofollow" target="_blank">
-                <i class="far fa-envelope"></i>
-              </a>
-            </li>
-          </ul>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.facebook.com/alejandro.estrella.520" rel="nofollow" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://github.com/ryusakinol/" rel="nofollow" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox" rel="nofollow" target="_blank">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
+      </nav>
+      <!-- Navbar -->
 
-    <!-- Background image -->
-    <div id="intro" class="bg-image shadow-2-strong">
+     <!-- Background image -->
+     <div id="intro" class="bg-image shadow-2-strong">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
           <div class="text-white">
@@ -123,25 +127,25 @@
             </div>
           </div>
 
-          <div class="col-md-6 gx-5 mb-4" id="about">
-            <h4><strong>Sobre mi</strong></h4>
-            <p class="text-muted">
-             Amante del codigo, inspirado en la logica en lo nuevo y la tecnologias, busco un espacio donde pueda utilizar mis habilidades y conocimentos, Soy un "Junior" con una capacidad de adatarme a la situacion, aceptar nuevo retos me gusta el minimalismo, aprecio el diseño, tengo una gran imaginacion y lo enfoco en el "Front-end". quiero seguir formandome como desarrollador y poder llegar a ser un "Fullstack Developer".
-            </p>
-            <h4><strong>Habilidades </strong></h4>
-            <p class="text-muted">
-              Me adapto rapido, competitivo, entusiasta, optimista muy social y dinamico me gusta conocer
-              persona y me gusta dar lo mejor de mi.  
-            </p>
+            <div class="col-md-6 gx-5 mb-4" id="about">
+              <h4><strong>Sobre mi</strong></h4>
+              <p class="text-muted">
+              Amante del codigo, inspirado en la logica en lo nuevo y la tecnologias, busco un espacio donde pueda utilizar mis habilidades y conocimentos, Soy un "Junior" con una capacidad de adatarme a la situacion, aceptar nuevo retos me gusta el minimalismo, aprecio el diseño, tengo una gran imaginacion y lo enfoco en el "Front-end". quiero seguir formandome como desarrollador y poder llegar a ser un "Fullstack Developer".
+              </p>
+              <h4><strong>Habilidades </strong></h4>
+              <p class="text-muted">
+                Me adapto rapido, competitivo, entusiasta, optimista muy social y dinamico me gusta conocer
+                persona y me gusta dar lo mejor de mi.  
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
-      <!--Section: Content-->
+        </section>
+        <!--Section: Content-->
 
       <hr class="my-5" />
 
-      <!--Section: Content-->
-      <section class="text-center" id="project">
+       <!--Section: Content-->
+       <section class="text-center" id="project">
         <h4 class="mb-5"><strong>Projectos</strong></h4>
 
         <div class="row">
@@ -192,7 +196,7 @@
               <div class="card-body">
                 <h5 class="card-title">Chat con web socket</h5>
                 <p class="card-text">
-               Utilice las tecnologias nodejs, express, nodemon, sockect io para hacer un chat en tiempo real y utilice bootstrap para data-mdb-ripple-colorun poco de estilo. 
+               Utilice las tecnologias nodejs, express, nodemon, sockect io para hacer un chat en tiempo real y utilice bootstrap para el estilo. 
                 </p>
                 <a href="https://github.com/ryusakinol/chat-con-express" class="btn btn-primary"  target="_blank">Repositorio</a>
               </div>
@@ -273,30 +277,30 @@
       <div class="row" id="skill" >
         <li class="col-md-4">
           <h3>Frontend</h3>
-          <p style="width:100%" data-value="avanzado">Html5</p>
-          <progress max="100" value="avanzado" id="html" ></progress>
-          <p style="width:100%" data-value="avanzado">Css3</p>
-          <progress max="100" value="avanzado" class="css-3"></progress>
+          <p style="width:100%" data-value="intermedio">Html</p>
+          <progress max="100" value="90" class="html"></progress>
+          <p style="width:100%" data-value="intermedio">Css</p>
+          <progress max="100" value="80" class="css"></progress>  
           <p style="width:100%" data-value="intermedio">Js</p>
-          <progress max="100" value="50" class="js"></progress>         
+          <progress max="100" value="60" class="js"></progress>         
           <p style="width:100%" data-value="intermedio">jQuery</p>
           <progress max="100" value="50" class="jquery"></progress>         
           <p style="width:100%" data-value="intermedio">React</p>
           <progress max="100" value="50" class="react"></progress>
           <p style="width:100%" data-value="intermedio">Bootstrap5/materialize </p>
-          <progress max="100" value="50" class="boot"></progress>
+          <progress max="100" value="70" class="boot"></progress>
           <p style="width:100%" data-value="intermedio">Git</p>
-          <progress max="100" value="50" class="git"></progress>
+          <progress max="100" value="90" class="git"></progress>
         </li>
         <li class="col-md-4">
 
           <h3>Backend</h3>
           <p style="width:100%" data-value="basico">Php</p>
-          <progress max="100" value="30" class="php"></progress>
+          <progress max="100" value="40" class="php"></progress>
           <p style="width:100%" data-value="basico">Mysql</p>
           <progress max="100" value="30" class="mysql"></progress>
           <p style="width:100%" data-value="basico">Node.js</p>
-          <progress max="100" value="30" class="node-js"></progress>
+          <progress max="100" value="44" class="node-js"></progress>
           <p style="width:100%" data-value="basico">Express.js</p>
           <progress max="100" value="30" class="express"></progress>
           <p style="width:100%" data-value="basico">Socket.io</p>
@@ -305,11 +309,11 @@
         <li class="col-md-4">
           <h3 class="my-2">Complementos</h3>
           <p style="width:100%" data-value="avanzado">Informatica</p>
-          <progress max="100" value="100" class="informatica"></progress>
+          <progress max="100" value="80" class="informatica"></progress>
           <p style="width:100%" data-value="avanzado">Ingles</p>
-          <progress max="100" value="100" class="ingles"></progress>
+          <progress max="100" value="80" class="ingles"></progress>
           <p style="width:100%" data-value="avanzado">Microsoft Office</p>
-          <progress max="100" value="100" class="office"></progress>
+          <progress max="100" value="80" class="office"></progress>
         </li>
       </div>
     </ul>
@@ -346,11 +350,9 @@
     <!-- Copyright -->
   </footer>
   <!--Footer-->
-    <!-- MDB -->
+
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    
-    
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
