@@ -1,9 +1,0 @@
-﻿{
-  "matchCondition": {
-    "route": "test",
-    "methods": [
-      "GET"
-    ]
-  },
-  "backendUri": "http://httpbin.org/ip"
-}
