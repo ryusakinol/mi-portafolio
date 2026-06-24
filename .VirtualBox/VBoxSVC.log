@@ -1,0 +1,102 @@
+00:00:00.004641 main     VirtualBox COM Server 7.2.2 r170484 win.amd64 (Sep 10 2025 19:56:01) release log
+00:00:00.004986 main     Log opened 2025-12-03T19:56:01.574128600Z
+00:00:00.004988 main     Build Type: release
+00:00:00.004995 main     OS Product: Windows 10
+00:00:00.005342 main     OS Release: 10.0.19045.6466
+00:00:00.005343 main     OS Service Pack: 
+00:00:00.068125 main     DMI Product Name: OEM
+00:00:00.082282 main     DMI Product Version: OEM
+00:00:00.082297 main     Firmware type: BIOS
+00:00:00.082305 main     Host RAM: 12279MB (11.9GB) total, 9607MB (9.3GB) available
+00:00:00.082312 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.082312 main     Process ID: 1540
+00:00:00.082313 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.082695 main     Windows Features:
+00:00:00.082696 main       Core Isolation (Memory Integrity): Not supported
+00:00:00.150188          VirtualBox: object creation starts
+00:00:00.151690          Home directory: 'C:\Users\Alejandro\.VirtualBox'
+00:00:00.152520          Installed Drivers:
+00:00:00.157842            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.2.2.20484)
+00:00:00.158837            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.2.2.20484)
+00:00:00.159329            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.2.2.20484)
+00:00:00.160194            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.2.2.20484)
+00:00:00.184172          Loading settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.189845          usbLibGetDevices: Starting USB device enumeration
+00:00:00.447636          usbLibGetDevices: Found 5 USB devices, 0 captured
+00:00:00.572086          HostDnsMonitor: initializing
+00:00:00.578354          HostDnsMonitor: updating information
+00:00:00.580129          HostDnsMonitor: old information
+00:00:00.580130            no server entries
+00:00:00.580131            no domain set
+00:00:00.580134            no search string entries
+00:00:00.580135          HostDnsMonitor: new information
+00:00:00.580135            server 1: 10.0.0.1
+00:00:00.580136            no domain set
+00:00:00.580137            no search string entries
+00:00:00.671632          SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.674314          VD: VDInit finished with VINF_SUCCESS
+00:00:00.683020          Platform architecture set to 'x86'
+00:00:00.698606          Loading settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox" with version "1.19-windows"
+00:00:00.702054          Platform architecture set to 'x86'
+00:00:00.705811          VirtualBox: object created
+00:00:00.855697          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/Alejandro/VirtualBox VMs/window xp 64/window xp 64.vbox'}, preserve=false aResultDetail=0
+00:00:02.195342          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.203926          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:02.204117          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.215912          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:02.216192          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.223905          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:03.065051          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/Alejandro/VirtualBox VMs/window xp 64/window xp 64.vbox'}, preserve=false aResultDetail=0
+00:00:03.068221          Platform architecture set to 'x86'
+00:00:03.086511          Loading settings file "C:\Users\Alejandro\VirtualBox VMs\window xp 64\window xp 64.vbox" with version "1.19-windows"
+00:00:03.086981          Platform architecture set to 'x86'
+00:00:03.087612          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {b3d4ba53-27ce-476d-aa3e-38cb060b655e}}, preserve=false aResultDetail=0
+00:00:03.088807          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.100218          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:03.134364          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.146449          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:03.179703          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.325376          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:03.325882          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.337400          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:10.332503          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:10.337485          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:12.914504          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:12.920632          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:00:12.930326          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:12.939437          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:14.367115          Launched VM: 536374320 pid: 3112 (0xc28) frontend: GUI/Qt name: alexx
+00:00:14.429962          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:14.470618          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:21.449106          Platform architecture set to 'x86'
+00:00:21.624692          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:21.629360          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:25.107229          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:27.725002          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:27.732854          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:27.735895          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.749603          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.751844          Saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox" with version "1.19-windows"
+00:00:27.764241          Finished saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox"
+00:00:27.766900          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.776022          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:27.780646          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.957280          Saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox" with version "1.19-windows"
+00:00:27.965706          Finished saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox"
+00:00:27.983512          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:27.989543          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:00:28.073712          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:28.098165          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:29.287124 Watcher  Saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox" with version "1.19-windows"
+00:00:29.294678 Watcher  Finished saving settings file "C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vbox"
+00:00:29.372480          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:29.412261          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:45.784206          Saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:45.788564          Finished saving settings file "C:\Users\Alejandro\.VirtualBox\VirtualBox.xml"
+00:06:53.823851 main     VirtualBox: object deletion starts
+00:06:53.823919 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\Alejandro\VirtualBox VMs\alexx\alexx.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:06:53.824595 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\Alejandro\VirtualBox VMs\window xp 64\window xp 64.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:06:53.826390 main     HostDnsMonitor: shutting down ...
+00:06:53.826432 main     HostDnsMonitor: shut down
+00:06:53.827701 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:06:53.828146 main     VirtualBox: object deleted
